@@ -80,13 +80,14 @@ main {
 .start-btn .fas{
     color: var(--white);
     font-size: 1rem;
-    margin-left: 20px;
     opacity: 0;
+    margin-left: -10px;
 
 }
 .start-btn:hover > .fas{
     margin-left: 0;
     opacity: 1;
+    
 }
 #startBtn:hover {
     background: linear-gradient(120deg, #8F66BF, #fb3585);
